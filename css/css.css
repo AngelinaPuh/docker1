@@ -1,0 +1,72 @@
+ .red_static{
+    background-color: rgba(255, 141, 141, 0.74);
+ }
+ .yelow_static{
+    background-color: rgba(255, 255, 140, 0.74);
+ }
+ .green_static{
+    background-color: rgba(142, 255, 142, 0.74);
+ }
+ .cvetofer{
+    background-color: rgb(73, 73, 73);
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+ }
+ .razmer{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+/* стиль чтобы загорелся */
+.green{
+    background-color: green;
+    color:green ;
+}
+.red{
+    background-color: red;
+    color:red ;
+ }
+ .stop{
+    font-size: 40px;
+    border-radius: 20px;
+    border: solid;
+    width: 120px;
+    background-color: azure;
+ }
+ .znak{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(doroga.jpg);
+    padding: 10px;
+    
+ }
+ /*
+body{
+    display: flex;
+} */
+.div{
+    padding: 5px;
+    margin: auto;
+    border: solid;
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 100px black;
+    background-color: rgb(221, 254, 255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+input{
+    background-color: rgb(214, 255, 248);
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    border:solid rgba(53, 121, 138, 0.795);
+}
+p{
+    background-color: rgb(167, 249, 255);
+    width: 200px;
+    padding: 5px;
+}
